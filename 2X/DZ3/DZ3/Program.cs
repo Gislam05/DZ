@@ -26,14 +26,14 @@ namespace DZ3
 
     public class BechmarkClass
     {
-        [Params(0, 1, 2)] //Новое
+        [Params(0, 1, 2)]
         public int AIdx { get; set; }
 
-        [Params(0, 1, 2)] //Новое
+        [Params(0, 1, 2)] 
         public int BIdx { get; set; }
 
-        private PointClass[] clArray = ClassArray(); //Объявлен массив типа PointClass
-        private PointStruct[] stArray = StructArray();//Объявлен массив типа PointStruct
+        private PointClass[] clArray = ClassArray(); 
+        private PointStruct[] stArray = StructArray();
 
         public static PointClass[] ClassArray()
         {
