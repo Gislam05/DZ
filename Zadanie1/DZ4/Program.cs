@@ -20,7 +20,6 @@ public class User
     {
         int firtsNameHashCode = FirstName?.GetHashCode() ?? 0;
         int secondNameHashCode = SecondName?.GetHashCode() ?? 0;
-        return firtsNameHashCode ^ secondNameHashCode;
     }
 }
 
